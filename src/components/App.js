@@ -30,7 +30,7 @@ const LoginForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!username || !password) {
-      setErrorMessage('Please enter both username and password.');
+      setErrorMessage('Both username and password are required.');
     } else {
       // Your login logic here
       setErrorMessage('');
